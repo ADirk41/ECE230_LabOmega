@@ -17,7 +17,7 @@ module clock_div
     
     // Clock Circuits
     dff div0 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(clock),
         .D(ClkData[0]),
@@ -26,7 +26,7 @@ module clock_div
     );
     
     dff div1 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[0]),
         .D(ClkData[1]),
@@ -35,7 +35,7 @@ module clock_div
     );
     
     dff div2 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[1]),
         .D(ClkData[2]),
@@ -44,7 +44,7 @@ module clock_div
     );
     
     dff div3 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[2]),
         .D(ClkData[3]),
@@ -53,7 +53,7 @@ module clock_div
     );
     
     dff div4 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[3]),
         .D(ClkData[4]),
@@ -62,7 +62,7 @@ module clock_div
     );
     
     dff div5 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[4]),
         .D(ClkData[5]),
@@ -71,7 +71,7 @@ module clock_div
     );
     
     dff div6 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[5]),
         .D(ClkData[6]),
@@ -80,7 +80,7 @@ module clock_div
     );
     
     dff div7 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[6]),
         .D(ClkData[7]),
@@ -89,7 +89,7 @@ module clock_div
     );
     
     dff div8 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[7]),
         .D(ClkData[8]),
@@ -98,7 +98,7 @@ module clock_div
     );
     
     dff div9 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[8]),
         .D(ClkData[9]),
@@ -107,7 +107,7 @@ module clock_div
     );
     
     dff div10 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[9]),
         .D(ClkData[10]),
@@ -116,7 +116,7 @@ module clock_div
     );
     
     dff div11 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[10]),
         .D(ClkData[11]),
@@ -125,7 +125,7 @@ module clock_div
     );
     
     dff div12 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[11]),
         .D(ClkData[12]),
@@ -134,7 +134,7 @@ module clock_div
     );
     
     dff div13 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[12]),
         .D(ClkData[13]),
@@ -143,7 +143,7 @@ module clock_div
     );
     
     dff div14 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[13]),
         .D(ClkData[14]),
@@ -152,7 +152,7 @@ module clock_div
     );
     
     dff div15 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[14]),
         .D(ClkData[15]),
@@ -161,7 +161,7 @@ module clock_div
     );
     
     dff div16 (
-        .Default(1'b0),
+        //.Default(1'b0),
         .reset(reset),
         .clock(ClkOut[15]),
         .D(ClkData[16]),

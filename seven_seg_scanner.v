@@ -10,7 +10,7 @@ module seven_seg_scanner(
     wire A_I, B_I, C_I, D_I; // Inverse of current state
     
     // State FlipFlops (A is the initial state)
-    dff stateA(
+    dff_default stateA(
         .Default(1'b0),
         .reset(reset),
         .clock(div_clock),
@@ -19,7 +19,7 @@ module seven_seg_scanner(
         .NotQ(A_I)
     );
     
-    dff stateB(
+    dff_default stateB(
         .Default(1'b1),
         .reset(reset),
         .clock(div_clock),
@@ -28,7 +28,7 @@ module seven_seg_scanner(
         .NotQ(B_I)
     );
     
-    dff stateC(
+    dff_default stateC(
         .Default(1'b1),
         .reset(reset),
         .clock(div_clock),
@@ -37,7 +37,7 @@ module seven_seg_scanner(
         .NotQ(C_I)
     );
     
-    dff stateD(
+    dff_default stateD(
         .Default(1'b1),
         .reset(reset),
         .clock(div_clock),
